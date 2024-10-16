@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('your-background-image.jpg');
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+}
+
+/* Background Box */
+.background-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Form Container */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    max-width: 450px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+/* Header */
+.form-header {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+/* Form Inputs */
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #333;
+}
+
+/* Button */
+.translucent-button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid #4CAF50;
+    color: #4CAF50;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.translucent-button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Feedback box */
+#userFeedback {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 10px;
+}

@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('your-background-image.jpg'); /* Add your background image URL here */
+    background-size: cover; 
+    background-position: center;
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Center the form vertically */
+    
+}
+
+/* Background Box */
+.background-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Container */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.2); /* Make the form nearly invisible */
+    border-radius: 20px; /* Larger rounded corners for a unique look */
+    padding: 50px; /* Increased padding for more space inside the form */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow to make the form slightly visible */
+    max-width: 450px; /* Form width */
+    width: 100%; /* Full width */
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Header Section for the form */
+.form-header {
+    font-size: 20px; /* Header font size */
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+/* Form Inputs */
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Rounded input corners */
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.2); /* Make input fields translucent as well */
+    color: #333; /* Text color for better visibility */
+    font-weight: bold;
+}
+
+/* Translucent Button */
+.translucent-button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.2); /* Make the button nearly invisible */
+    border: 2px solid #4CAF50; /* Green border */
+    color: #4CAF50; /* Green text */
+    font-size: 18px;
+    border-radius: 20px; /* Rounded button corners */
+    cursor: pointer;
+}
+
+.translucent-button:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Slightly more opaque on hover */
+}
+
+/* Form Links and Boxes */
+.form-link-box {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.336); /* Make link box translucent */
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.form-link-box:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Slightly more opaque on hover */
+}
+
+.form-link {
+    font-size: 16px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Registration Box (Separate from form) */
+.registration-box {
+    background-color: rgba(0, 0, 0, 0.2); /* Dark translucent box for registration link */
+    padding: 15px;
+    margin-top: 40px; /* Space below the form */
+    font-size: 12px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Image in Form */
+.form-image {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100px; /* Adjust image size */
+    height: auto;
+    border-radius: 50% 0 0 50%; /* Rounded left side of the image */
+}
+
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+}  
+/* Hide registration form by default */
+.hidden {
+    display: none;
+}
+.success-message {
+    color: green;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.success-icon {
+    color: green;
+    font-size: 24px;
+    margin-left: 10px;
+}
